@@ -108,4 +108,7 @@ var/SymfonyRequirements.php
 vendor/
 web/bundles/
 
+#Node
+node_modules/*
+
 # End of https://www.gitignore.io/api/phpstorm
