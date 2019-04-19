@@ -74,7 +74,6 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
-
 ### PhpStorm Patch ###
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
@@ -91,22 +90,22 @@ logs/nginx/*
 logs/symfony/*
 
 #Symfony addition
-symfony/.web-server-pid
-symfony/app/config/parameters.yml
-symfony/build/
-symfony/phpunit.xml
-symfony/var/*
-!symfony/var/cache
-symfony/var/cache/*
-!symfony/var/cache/.gitkeep
-!symfony/var/logs
-symfony/var/logs/*
-!symfony/var/logs/.gitkeep
-!symfony/var/sessions
-symfony/var/sessions/*
-!symfony/var/sessions/.gitkeep
-!symfony/var/SymfonyRequirements.php
-symfony/vendor/
-symfony/web/bundles/
+.web-server-pid
+app/config/parameters.yml
+build/
+phpunit.xml
+var/*
+var/cache
+var/cache/*
+var/cache/.gitkeep
+var/logs
+var/logs/*
+var/logs/.gitkeep
+var/sessions
+var/sessions/*
+var/sessions/.gitkeep
+var/SymfonyRequirements.php
+vendor/
+web/bundles/
 
 # End of https://www.gitignore.io/api/phpstorm
