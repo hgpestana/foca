@@ -6,13 +6,18 @@
   "directories": {
     "test": "tests"
   },
-  "dependencies": {    "@babel/preset-react": "^7.0.0",
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0",
     "@symfony/webpack-encore": "^0.27.0",
+    "@types/react": "^16.8.14",
+    "@types/react-dom": "^16.8.4",
     "node-sass": "^4.11.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.1.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.4.4"
   },
   "devDependencies": {},
   "scripts": {

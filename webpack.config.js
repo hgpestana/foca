@@ -20,6 +20,7 @@ Encore
      * and one CSS file (e.g. app.css) if you JavaScript imports CSS.
      */
     .addEntry('app', './assets/js/app.js')
+    .addEntry('frontpage', './assets/tsx/frontpage/App.tsx')
 
     // will require an extra script tag for runtime.js
     // but, you probably want this, unless you're building a single-page app
@@ -41,7 +42,9 @@ Encore
     // enable React
     .enableReactPreset()
 
-    // uncomment if you're having problems with a jQuery plugin
+    // enable TypeScript
+    .enableTypeScriptLoader()
+// uncomment if you're having problems with a jQuery plugin
 ;
 
 module.exports = Encore.getWebpackConfig();
