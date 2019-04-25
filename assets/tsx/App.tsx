@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { render } from 'react-dom';
-import Header from './Header';
+import Frontpage from './frontpage/Frontpage';
 
 render(
-    <Header/>,
+    <Frontpage/>,
     document.getElementById('root')
 );
