@@ -1,6 +1,10 @@
 var Encore = require('@symfony/webpack-encore');
 
 Encore
+
+    // dev runtime environment
+    .configureRuntimeEnvironment('dev')
+
     // directory where compiled assets will be stored
     .setOutputPath('web/build/')
 
