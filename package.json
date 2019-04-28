@@ -8,10 +8,13 @@
   },
   "dependencies": {
     "@babel/preset-react": "^7.0.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "@symfony/webpack-encore": "^0.27.0",
     "@types/react": "^16.8.14",
     "@types/react-dom": "^16.8.4",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
@@ -25,18 +28,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hgpestana/owl.git"
+    "url": "git+https://github.com/hgpestana/foca.git"
   },
   "keywords": [
-    "owl",
+    "foca",
     "school",
     "git",
     "grades"
   ],
   "author": "Hélder Pestana",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hgpestana/owl/issues"
+    "url": "https://github.com/hgpestana/foca/issues"
   },
-  "homepage": "https://github.com/hgpestana/owl#readme"
+  "homepage": "https://github.com/hgpestana/foca#readme"
 }
