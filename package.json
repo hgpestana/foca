@@ -1,0 +1,45 @@
+{
+  "name": "owl",
+  "version": "1.0.0",
+  "description": "Web platform for school grading.",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@symfony/webpack-encore": "^0.27.0",
+    "@types/react": "^16.8.14",
+    "@types/react-dom": "^16.8.4",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "sass-loader": "^7.1.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hgpestana/foca.git"
+  },
+  "keywords": [
+    "foca",
+    "school",
+    "git",
+    "grades"
+  ],
+  "author": "Hélder Pestana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hgpestana/foca/issues"
+  },
+  "homepage": "https://github.com/hgpestana/foca#readme"
+}

@@ -1,0 +1,19 @@
+/* assets/css/style.scss */
+@import "colors";
+
+.footer {
+  min-height: 50px;
+  background-color: $dark;
+  padding: 25px 5px;
+  margin-top: 30px;
+
+  p {
+    color: $light;
+    text-align: center;
+  }
+}
+
+.invert {
+  -ms-filter: invert(100%);
+  filter: invert(100%)
+}
